@@ -12,21 +12,21 @@ public class App {
         Thread t1 = new Thread() {
             @Override
             public void run() {
-                context.getBean(Bean.class);
+                context.getBean(MyBean.class);
             }
         };
 
         Thread t2 = new Thread() {
             @Override
             public void run() {
-                context.getBean(Bean.class);
+                context.getBean(MyBean.class);
             }
         };
 
         Thread t3= new Thread() {
             @Override
             public void run() {
-                context.getBean(Bean.class);
+                context.getBean(MyBean.class);
             }
         };
 

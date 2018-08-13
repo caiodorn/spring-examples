@@ -1,6 +1,6 @@
-public class Bean {
+public class MyBean {
 
-    public Bean() {
+    public MyBean() {
         System.out.println("I am " + hashCode());
     }
 

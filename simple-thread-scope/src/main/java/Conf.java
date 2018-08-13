@@ -8,8 +8,8 @@ public class Conf {
 
     @Bean
     @Scope(value = "thread")
-    Bean getBeanOne() {
-        return new Bean();
+    MyBean getMyBean() {
+        return new MyBean();
     }
 
     @Bean
